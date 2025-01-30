@@ -17,3 +17,11 @@ public class Shirt {
         System.out.println("Quantity in stock: " + quantityInStock);
     }
 }
+
+ class ShirtTest {
+
+    public static void main(String args[]) {
+        Shirt myShirt = new Shirt();
+        myShirt.displayShirtInformation();
+    }
+}
